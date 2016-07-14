@@ -45,4 +45,23 @@ r11 refers to the red pixel value at row 1 column 1, r12 refers to red pixel at 
 
 **Referred the link for neural network for xor implementation http://code.activestate.com/**
 
+#Steps to run the code
+
+#KNN
+
+**python orient.py train_file.txt test_file.txt knn k**
+
+where  
+
+k is an integer for number of neighbors to be considered
+
+#Neural Net
+
+**python orient.py train_file.txt test_file.txt nnet hidden_count**
+
+where  
+
+hidden_count is number of nodes in the hidden layer
+
+
 
