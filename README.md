@@ -26,7 +26,7 @@ r11 refers to the red pixel value at row 1 column 1, r12 refers to red pixel at 
 2. We parse through each of the test sample and  find its k nearest neifghbour in training set  
 3. and assign orientation which has maximum count on k training samples  
 4. We use euclidean distance to compute the distance of test sample from each of the training data  
-5. 
+
 
 #Neural Network
 
