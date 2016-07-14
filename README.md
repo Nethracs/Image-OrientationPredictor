@@ -30,16 +30,16 @@ r11 refers to the red pixel value at row 1 column 1, r12 refers to red pixel at 
 
 #Neural Network
 
-1. We take in number of nodes in hiddenlayer as input  
-2. We assign random weights to inputs and hidden nodes  
-3. We assign the pixel value as input activation and compute hidden activation from input activation and input weights  
-4. We calculate output activation from hidden weights and hidden activations  
-5. On finding tha output weight we compute the error and do back propogation  
-6. we calculate the output delta and update the output weights  
-7. calculate the hidden delta and update the input weights  
-8. On calcutaing the weights for three layers by using the train data  
-9. we compute the orientation of test data based on the weights calculated from train data    
-10.We normalize the values in each layer before using it in the sigmoid functions    
+1.  We take in number of nodes in hiddenlayer as input  
+2.  We assign random weights to inputs and hidden nodes  
+3.  We assign the pixel value as input activation and compute hidden activation from input activation and input weights  
+4.  We calculate output activation from hidden weights and hidden activations  
+5.  On finding tha output weight we compute the error and do back propogation  
+6.  We calculate the output delta and update the output weights  
+7.  Calculate the hidden delta and update the input weights  
+8.  On calcutaing the weights for three layers by using the train data  
+9.  We compute the orientation of test data based on the weights calculated from train data    
+10. We normalize the values in each layer before using it in the sigmoid functions    
 11. We use the sigmoid function y= (1/(1+e-x))  
 12. Gradient descent y*(1-y)  
 
